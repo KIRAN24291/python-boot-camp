@@ -18,5 +18,5 @@ Before going into Operators lets understand about Operator Precendence.
 -->paranthesis() > exponent** > Mutliplication* or Division/ or modulus% > Addition+ or Subtraction-. 
 Now lets see with an example.
 """
-result = 10+5*2   
-print(result)
+result = 10+5*2    # The highest precendence is Multiplication so 5*2-->(10) then Addition 10+10-->(20).
+print(result)      # The Output is 20.      
